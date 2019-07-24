@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*
+ * BMI Calculator
+ * Description: COMP123 Assignment 4
+ * Author: Joyeeta Nandi
+ * Student ID: 300757798
+ * Last modified: July 24, 2019
+  */
 namespace BMICalculator
 {
     static class Program
@@ -16,7 +22,7 @@ namespace BMICalculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new BMICalculatorForm());
         }
     }
 }
